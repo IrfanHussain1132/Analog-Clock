@@ -1,0 +1,54 @@
+
+body{
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(moon.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.clock{
+    height: 30rem;
+    width: 30rem;
+    border: 20px solid rgba(176, 13, 13, 0.921);
+    border-radius: 50%;
+     margin: 50px auto;
+     padding: 2rem;
+     background-image: url(sharingan.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     
+}
+.hand{
+    width: 50%;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(90deg);
+    transform-origin: 0% 50%;
+    transition: all 0.4s;
+}
+.sec-hand{
+    background-color: rgb(255, 255, 255);
+    
+    width: 16rem;
+    
+}
+.min-hand{
+    background-color: rgb(246, 246, 246);
+    transition: 0.4s;
+    width: 12rem;
+    
+}
+.hour-hand{
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+    width: 6rem;
+    
+}
